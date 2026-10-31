@@ -56,3 +56,11 @@ int solution(const char* word) {
     
     return answer;
 }
+
+int main(void) {
+    char order[6];
+    scanf("%s", order);
+
+    printf("%d\n", solution(order));
+    return 0;
+}
