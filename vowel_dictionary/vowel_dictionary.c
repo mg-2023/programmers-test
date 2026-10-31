@@ -13,6 +13,8 @@ char next_vowel(char cur_vowel) {
             return 'U';
         case 'U':
             return 0;
+        default:
+            return 0;
     }
 }
 
